@@ -56,7 +56,7 @@ namespace ArraysAndLists
              */
             
             Console.WriteLine("Here is the list of odd numbers:");
-            for(int i = 0; i <= 9; i++)
+            for(int i = 0; i < odds.Count; i++)
             {
                 Console.WriteLine(odds[i]);
             }
